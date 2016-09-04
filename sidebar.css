@@ -5,7 +5,7 @@ body{
 
 .navBar{
     background: #fff;
-    min-width: 450px;
+    min-width: 565px;
     padding: 10px 15px;
     font-size: 20px;
     color: #fff;
@@ -14,6 +14,7 @@ body{
     left: 0;
     top: 0;
     z-index: 1030;
+
     box-shadow: 0px 0px 15px -1px #000000;
 }
 .navBar .favorites {
@@ -42,8 +43,6 @@ body{
 }
 .navBar .person-info .person img:last-child{
     height: 14px;
-    float: right;
-    padding: 6px 9px;
 }
 .navBar a{
     float: left;
@@ -199,7 +198,7 @@ body{
 .middleContent{
     width: 95%;
     float: left;
-    padding: 20px;
+    padding: 34px 20px 20px;
     position: relative;
     top: 50px;
     min-height: 650px;
@@ -257,7 +256,7 @@ body{
     float: left;
 }
 .middleContent .block{
-    width: 200px;
+    width: 194px;
     height: 48px;
     border: 1px solid #f2f2f2;
     border-radius: 4px;
@@ -290,6 +289,7 @@ body{
     color: #545C37 !important;
 }
 .middleContent .block.block4{
+    margin-right: 0 !important;
     background: #F3557A;
 }
 @media only screen and (max-width: 1060px) {
@@ -297,16 +297,30 @@ body{
         width: 80%;
     }
 }
-@media only screen and (max-width: 674px) {
-    .favorites {
-        padding: 7px 0 0 24px;
+@media only screen and (max-width: 975px) {
+    .sideBar {
+        margin-top: 0px;
     }
-}
-/*@media only screen and (max-width: 674px) {
+    .middleContent {
+        margin-top: 0px;
+    }
+}   
+@media only screen and (max-width: 975px) {
     .favorites {
+        clear: both;
         margin-top: 10px;
     }
-}*/
+    .person-info {
+        float: left !important;
+        margin-top: 10px;
+    }
+    .sideBar {
+        margin-top: 30px;
+    }
+    .middleContent {
+        margin-top: 40px;
+    }
+}
 
 @media only screen and (max-width: 900px) {
     .sideBar-heading {
@@ -324,6 +338,10 @@ body{
     }
     .sideBar ul{
         padding: 0;
+        margin: 0 !important;
+    }
+    .sideBar ul li {
+        margin-top: 10px;
     }
     .sideBar ul li a{
         padding: 15px  16px;
