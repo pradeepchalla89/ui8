@@ -1,6 +1,6 @@
 body{
 	margin: 0;
-    font-family: sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .navBar{
@@ -129,7 +129,7 @@ body{
     font-size: 10px;
 }
 .person-info .login-user{
-    width: 127px;
+    width: 140px;
     color: rgb(255, 255, 255);
     float: left;
     padding: 6px 0px 0px 9px; 
@@ -174,7 +174,7 @@ body{
 .sideBar ul li a{
     text-decoration: none;
     font-size: 15px;
-    padding: 15px 35px;
+    padding: 5px 35px 15px;
     color: #fff;
     display: block;
 }
@@ -187,12 +187,13 @@ body{
 .sideBar li a:hover {
     text-decoration: none;
     color: #fff;
+    border-left: 3px solid #fff;
     background: rgba(255,255,255,0.2);
 }
 .sideBar ul li a img{
 	width: 20px;
     position: relative;
-    top: 6px;
+    top: 13px;
     padding-right: 15px;
 }
 .middleContent{
