@@ -293,6 +293,71 @@ body{
     margin-right: 0 !important;
     background: #F3557A;
 }
+.logo{
+    padding: 5px 0 0 5px;
+}
+.login-wrapper{
+    background-color: #F9F9FA;
+    min-height: 667px;
+}
+.loginDiv{
+    width: 20%;
+    margin: 0 auto;
+    text-align: center;
+}
+.loginDiv .header{
+    color: #3C5977;
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+.loginDiv .div-text{
+    font-size: 13px;
+    color: #3C5977;
+    margin-bottom: 15px;
+}
+.container{
+    width: 64%;
+    margin: 0 auto 20px;
+    font-size: 11px;
+    text-align: left;
+    border: 1px solid #e1e1e1;
+    padding: 15px 18px;
+    border-radius: 4px;
+    background-color: #ffffff;
+}
+.container.thumbDiv{
+    width: 45% !important;
+    text-align: center;
+}
+.container.thumbDiv img{
+    padding: 0px 0 90px;
+}
+.inputDiv{
+    padding-top: 5px;
+    color: #3C5977;
+}
+.keepLoggedIn{
+    padding: 10px 0px 20px;
+    color: #3C5977;
+}
+.keepLoggedIn input{
+    margin: 0;
+    position: relative;
+    top: 2px;
+}
+.button{
+    text-align: center;
+    background: #3C5977;
+    color: #fff;
+    padding: 13px;
+    border-radius: 3px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.forgotPassword{
+    font-size: 11px;
+    color: #3C5977;
+}
 @media only screen and (max-width: 1060px) {
     .middleContent{
         width: 80%;
