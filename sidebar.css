@@ -103,6 +103,7 @@ body{
 }
 .sideBar-heading{
     height: 100px;
+    margin-top: 50px;
 }
 .sideBar-heading .person {
     margin:35px 0 0 20px;
@@ -174,7 +175,7 @@ body{
 .sideBar ul li a{
     text-decoration: none;
     font-size: 15px;
-    padding: 5px 35px 15px;
+    padding: 10px 35px 10px 55px;
     color: #fff;
     display: block;
 }
@@ -193,7 +194,7 @@ body{
 .sideBar ul li a img{
 	width: 20px;
     position: relative;
-    top: 13px;
+    top: 4px;
     padding-right: 15px;
 }
 .middleContent{
@@ -329,7 +330,7 @@ body{
     width: 45% !important;
     text-align: center;
 }
-.container.thumbDiv img{
+.   container.thumbDiv img{
     padding: 0px 0 90px;
 }
 .inputDiv{
@@ -400,7 +401,6 @@ body{
 @media only screen and (max-width: 900px) {
     .sideBar-heading {
         height: 50px;
-        padding-top: 50px;
     }
     .sideBar-heading .person-img {
         margin : 0 0 0 5px !important;
@@ -419,7 +419,7 @@ body{
         margin-top: 10px;
     }
     .sideBar ul li a{
-        padding: 15px  16px;
+        padding: 8px 16px 10px;
     }
     .sideBar ul li a .text{
     	display: none;
