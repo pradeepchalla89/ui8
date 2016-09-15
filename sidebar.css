@@ -1,0 +1,591 @@
+body{
+	margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navBar{
+    background: #fff;
+    min-width: 565px;
+    padding: 10px 15px;
+    font-size: 20px;
+    color: #fff;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    z-index: 1030;
+
+    box-shadow: 0px 0px 15px -1px #000000;
+}
+.navBar .favorites {
+    float: left;
+}
+.navBar .person-info {
+	float: right;
+    width: 300px;
+}
+.navBar .person-info .icons{
+    padding: 0 10px;
+    float: left;
+}
+.navBar .person-info .icons img{
+    height: 16px;
+    padding: 7px 5px;
+}
+.navBar .person-info .person span{
+    color: #000000;
+    font-size: 13px;    
+}
+.navBar .person-info .person img:first-child{
+    height: 25px;
+    float: left;
+    padding: 2px 6px;
+}
+.navBar .person-info .person img:last-child{
+    height: 14px;
+}
+.navBar a{
+    float: left;
+}
+.navBar a.banner{
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    color: #000000;
+    padding-right:15px;
+}
+.navBar a.banner p {
+    margin: 0;
+}
+.navBar a.banner p:last-child{
+    font-size: 9px;
+}
+.navBar a.menu img{
+    height: 20px;
+    padding: 5px 10px 5px 15px;
+}
+.navBar input{
+    height: 25px;
+    margin: 2px 25px;
+    width: 195px;
+    border: 0.5px solid #ddd;
+    border-radius: 2px;
+    padding: 0 10px;
+}
+.search {
+  position: relative;
+  color: #aaa;
+  font-size: 16px;
+  float: left;
+}
+.navBar .search .search-icon { 
+    position: absolute;
+    top: 5px;
+    right: 30px;
+    height: 21px;
+}
+.navBar .items img{
+    height: 12px;
+}
+.navBar .items{
+    color: #000000;
+    float: left;
+    font-size: 13px;
+    padding-right: 20px;
+    padding-top: 7px;
+    width: 84px;
+    /*font-size: 13px;
+    color: #000000;
+    padding-right: 20px;*/
+}
+.content{
+    padding-left: 250px;
+}
+.sideBar-heading{
+    height: 100px;
+    margin-top: 50px;
+}
+.sideBar-heading .person {
+    margin:35px 0 0 20px;
+}
+.sideBar-heading .sales-info {
+    margin: 17px;
+}
+.sideBar-heading .sales-info div{
+    background-color: #257a9f;
+    color: #fff;
+    float: left;
+    margin-left: 10px;
+    text-align: center;
+    width: 50px;
+}
+.sideBar-heading .sales-info .sales{
+    padding: 6px;
+    border-radius: 3px;
+}
+.sideBar-heading .sales-info .sales-num {
+    font-weight: 800;
+}
+.sideBar-heading .sales-info .sales-name {
+    font-size: 10px;
+}
+.person-info .login-user{
+    width: 140px;
+    color: rgb(255, 255, 255);
+    float: left;
+    padding: 6px 0px 0px 9px; 
+}
+.person-info .shutdown {
+    width: 10px;
+    float: left;
+    padding-top: 20px;
+}
+.online-circle {
+    bottom: 13px;
+    clear: both;
+    color: rgb(255, 255, 255);
+    font-size: 10px;
+    padding-left: 45px;
+    position: relative;
+}
+.online-circle .online-status {
+    width: 10px;
+    height: 10px;
+    float: left;
+    border-radius: 50%;
+    background-color: rgb(111, 194, 182);
+    margin: 1px 4px;
+}
+.sideBar{
+	width: 250px;
+	background-color: #096388 ;
+    height: 100%;
+    position: fixed;
+    left: 250px;
+    margin-left: -250px;
+    top: 53px;
+}
+.sideBar ul{
+	margin: 60px 0 0 0;
+    padding: 0;
+}
+.sideBar ul li{
+	list-style-type: none;
+}
+.sideBar ul li a{
+    text-decoration: none;
+    font-size: 15px;
+    padding: 10px 35px 10px 55px;
+    color: #fff;
+    display: block;
+}
+.sideBar ul li a .dashboard-img{
+        float : left;
+}
+.sideBar ul li a .text{
+        padding-top: 13px;
+}
+.sideBar li a:hover {
+    text-decoration: none;
+    color: #fff;
+    border-left: 3px solid #fff;
+    background: rgba(255,255,255,0.2);
+}
+.sideBar ul li a img{
+	width: 20px;
+    position: relative;
+    top: 4px;
+    padding-right: 15px;
+}
+.middleContent{
+    width: 95%;
+    float: left;
+    padding: 34px 20px 20px;
+    position: relative;
+    top: 50px;
+    min-height: 650px;
+}
+.middleContent .breadcrums{
+    margin-top: 5px;
+}
+.middleContent .breadcrums img{
+    height: 16px;
+}   
+.middleContent .breadcrums .seperator{
+    font-size: 18px;
+    color: #a6a6a6;
+}
+.middleContent .breadcrums{
+    font-size: 12px;
+    color: #d4d4d4;
+}
+.middleContent .breadcrums .link{
+    color: #09799D;
+}
+.middleContent .header{
+    margin: 10px 0;
+}
+.middleContent .header p{
+    margin: 0;
+    font-size: 12px;
+}
+.middleContent .header p:first-child{
+    font-size: 20px;
+    font-weight: bold;
+}
+.middleContent .header p:last-child{
+    display: inline-block;
+    width: 100%;
+}
+.middleContent .header p:last-child img{
+    height: 11px;
+}
+.middleContent .header p:last-child span:last-child{
+    color: #09799D;
+}
+.middleContent .header p:last-child span.date{
+    float: right;
+    padding: 4px 9px;
+    border: 1px solid #d4d4d4;
+    border-radius: 2px;
+}
+.middleContent .header p:last-child span.date img{
+    height: 12px;
+}
+.middleContent .blocks{
+}
+.left{
+    float: left;
+}
+.middleContent .block{
+    width: 194px;
+    height: 48px;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    display: inline-block;
+    margin: 10px 0;
+    margin-right: 15px;
+    padding: 15px;
+}
+.middleContent .block .content{
+    font-weight: bold;
+    display: inline-block;
+    color: #fff;
+    padding: 8px;
+}
+.middleContent .block img{
+    height: 32px;
+    float: right;
+    padding-top: 10px;
+}
+.middleContent .block.block1{
+    background: #65C0B4;
+}
+.middleContent .block.block2{
+    background: #AFDBC2;
+}
+.middleContent .block.block3{
+    background: #F2FFC2;
+}
+.middleContent .block.block3 .content{
+    color: #545C37 !important;
+}
+.middleContent .block.block4{
+    margin-right: 0 !important;
+    background: #F3557A;
+}
+.logo{
+    padding: 5px 0 0 5px;
+}
+.login-wrapper{
+    background-color: #F9F9FA;
+    min-height: 667px;
+}
+.loginDiv{
+    width: 20%;
+    margin: 0 auto;
+    text-align: center;
+}
+.loginDiv .header{
+    color: #3C5977;
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+.loginDiv .div-text{
+    font-size: 13px;
+    color: #3C5977;
+    margin-bottom: 15px;
+}
+.container{
+    width: 64%;
+    margin: 0 auto 20px;
+    font-size: 11px;
+    text-align: left;
+    border: 1px solid #e1e1e1;
+    padding: 15px 18px;
+    border-radius: 4px;
+    background-color: #ffffff;
+}
+.container.thumbDiv{
+    width: 45% !important;
+    text-align: center;
+}
+.   container.thumbDiv img{
+    padding: 0px 0 90px;
+}
+.inputDiv{
+    padding-top: 5px;
+    color: #3C5977;
+}
+.keepLoggedIn{
+    padding: 10px 0px 20px;
+    color: #3C5977;
+}
+.keepLoggedIn input{
+    margin: 0;
+    position: relative;
+    top: 2px;
+}
+.button{
+    text-align: center;
+    background: #3C5977;
+    color: #fff;
+    padding: 13px;
+    border-radius: 3px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.forgotPassword{
+    font-size: 11px;
+    color: #3C5977;
+}
+@media only screen and (max-width: 1060px) {
+    .middleContent{
+        width: 80%;
+    }
+}
+@media only screen and (max-width: 975px) {
+    .sideBar {
+        margin-top: 0px;
+    }
+    .middleContent {
+        margin-top: 0px;
+    }
+}   
+@media only screen and (min-width: 900px) and (max-width: 974px) {
+    .sideBar-heading .person .person-info {
+        margin-top: 0 !important;
+    }
+    .sideBar-heading .person .online-circle {
+        padding-left: 8px;
+    }
+}   
+
+@media only screen and (max-width: 975px) {
+    .favorites {
+        clear: both;
+        margin-top: 10px;
+    }
+    .person-info {
+        float: left !important;
+        margin-top: 10px;
+    }
+    .sideBar {
+        margin-top: 30px;
+    }
+    .middleContent {
+        margin-top: 40px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .sideBar-heading {
+        height: 50px;
+    }
+    .sideBar-heading .person-img {
+        margin : 0 0 0 5px !important;
+    }
+    .middleContent {
+        padding-top: 50px;
+    }
+    .sideBar-heading .person, .sales-info {
+        display: none;
+    }
+    .sideBar ul{
+        padding: 0;
+        margin: 0 !important;
+    }
+    .sideBar ul li {
+        margin-top: 10px;
+    }
+    .sideBar ul li a{
+        padding: 8px 16px 10px;
+    }
+    .sideBar ul li a .text{
+    	display: none;
+    }
+    .sideBar{
+		width: 50px !important;
+		background-color: #369;
+	}
+    .content{
+        padding-left: 50px;
+    }
+}
+
+
+/*CSS for User Archive Page (8th)*/
+.userArchive .middleContent{
+    padding: 20px 10px 20px;
+}
+
+.userArchive .middleContent .breadcrums,
+.userArchive .middleContent .userList{
+    margin-top: 5px;
+    border: 1px solid #d4d4d4;
+    border-radius: 4px;
+}
+.userArchive .middleContent .breadcrums{
+    padding: 5px;
+}
+.userArchive .middleContent .breadcrums span:first-child img{
+    height: 45px;
+}
+
+.userArchive .middleContent .breadcrums div{
+    float: right;
+}
+.userArchive .middleContent .breadcrums div span{
+    float: left;
+    font-size: 34px;
+    color: #323232;
+    margin-right: 5px;
+}
+.userArchive .middleContent .breadcrums div img{
+    height: 49px;
+}
+
+.userArchive .middleContent .userList .user-details img{
+    float: left;
+}
+
+.userArchive .middleContent .userList .user-details .info{
+    display: inline-block;
+}
+
+.userArchive .middleContent .userList .user-details .info p{
+    margin: 2px;
+}
+
+
+.userArchive .middleContent .breadcrums table {
+    width: 100%;
+    margin:0;
+    padding:0;
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+.userArchive .middleContent .breadcrums table tbody tr td:first-child{
+    text-align: left;
+  }
+.userArchive .middleContent .breadcrums table tbody tr td:first-child img{
+    height: 45px !important;
+  }
+
+.userArchive .middleContent .breadcrums table tbody tr td:last-child{
+    text-align: right;
+  }
+.userArchive .middleContent .breadcrums table tbody tr td:last-child span{
+    font-size: 32px;
+    color: #323232;
+    float: right;
+}
+.userArchive .middleContent .breadcrums table tbody tr td:last-child img{
+    height: 50px !important;
+    float: right;
+  }
+
+ .userArchive .middleContent .userList table {
+    width: 100%;
+    margin:0;
+    padding:0;
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+
+  .userArchive .middleContent .userList table tr.userDetails{
+    border-bottom: 1px solid #d4d4d4;
+  }
+
+  .userArchive .middleContent .userList table tr.userDetails:hover{
+    background: #d4d4d4;
+  }
+  .userArchive .userList table tr {
+    padding: 5px;
+  }
+
+  .userArchive .userList table td:first-child{
+    text-align: left;
+  }
+  .userArchive .userList table td:first-child img{
+    float: left;
+    margin-right: 7px;
+  }
+  .userArchive .userList table td:first-child div p, 
+  .userArchive .userList table td:last-child p{
+    margin: 4px;
+    font-size: 10px;
+    font-weight: 600;
+  }
+  .userArchive .userList table td:first-child div p:first-child{
+    font-size: 14px;
+  }
+  .userArchive .userList table td:first-child div p span, 
+  .userArchive .userList table td:last-child p span{
+    color: #a6a6a6;
+    font-size: 10px;
+    font-style: italic;
+    font-weight: lighter;
+  }
+  .userArchive .userList table td:last-child{
+    text-align: right;
+  }
+  .userArchive .userList table td:last-child p{
+    margin: 4px;
+  }
+
+  .userArchive .middleContent .userList table th {
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1px;
+  }
+@media screen and (max-width: 600px) {
+    table {
+      border: 0;
+    }
+
+    table thead {
+      display: none;
+    }
+
+    table tr {
+      margin-bottom: 10px;
+      display: block;
+    }
+
+    table td {
+      display: block;
+      text-align: right;
+      font-size: 13px;
+    }
+
+    table td:last-child {
+      border-bottom: 0;
+    }
+
+    table td:before {
+      float: left;
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+  }
